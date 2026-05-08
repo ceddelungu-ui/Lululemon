@@ -3,39 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rewards US - Coach $750</title>
+    <title>Rewards US - Rhode $500 Gift Card</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0a0a0a;
+            background-color: #000000;
             color: #ffffff;
         }
-        .gold-gradient {
-            background: linear-gradient(135deg, #d4af37 0%, #f9e38c 50%, #d4af37 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .glass-card {
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(10px);
-            border: 1px border rgba(255, 255, 255, 0.1);
-            border-radius: 24px;
-        }
-        .cta-button {
-            background: linear-gradient(90deg, #d4af37, #b8860b);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-        .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(212, 175, 55, 0.3);
-        }
+
         .step-number {
-            background: rgba(212, 175, 55, 0.2);
-            color: #d4af37;
+            background-color: #333333;
+            color: #ffffff;
             width: 32px;
             height: 32px;
             display: flex;
@@ -43,114 +24,126 @@
             justify-content: center;
             border-radius: 50%;
             font-weight: bold;
-            margin-bottom: 12px;
+            flex-shrink: 0;
+        }
+
+        .gradient-border {
+            background: linear-gradient(to bottom, #333333, #111111);
+            padding: 1px;
+            border-radius: 1.5rem;
+        }
+
+        .content-card {
+            background: #111111;
+            border-radius: 1.5rem;
+        }
+
+        .cta-button {
+            transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .cta-button:active {
+            transform: scale(0.95);
         }
     </style>
 </head>
-<body class="min-h-screen flex flex-col items-center p-4 md:p-8">
+<body class="flex flex-col min-h-screen items-center px-4 py-8 md:py-16">
 
     <!-- Header Section -->
-    <header class="w-full max-w-2xl text-center mb-8">
-        <div class="inline-flex items-center space-x-2 bg-zinc-900 px-3 py-1 rounded-full mb-6 border border-zinc-800">
-            <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-            <span class="text-xs font-semibold text-zinc-400 tracking-wider uppercase">Active Reward Program</span>
+    <header class="w-full max-w-md text-center mb-8">
+        <div class="inline-block px-3 py-1 mb-4 text-xs font-bold uppercase tracking-widest bg-zinc-800 text-zinc-400 rounded-full">
+            Exclusive Reward Opportunity
         </div>
-        <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
-            Rewards US <span class="gold-gradient">— Coach $750</span>
+        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-2">
+            Rhode <span class="text-zinc-500">$500</span> Gift Card
         </h1>
-        <p class="text-zinc-400 text-lg">Your invitation to participate in the Coach premium experience.</p>
+        <p class="text-zinc-400 text-sm md:text-base px-4">
+            Follow the requirements below to claim your rewards card today.
+        </p>
     </header>
 
     <!-- Main Card -->
-    <main class="w-full max-w-xl glass-card overflow-hidden mb-12 shadow-2xl">
-        <!-- Visual Element -->
-        <div class="relative h-64 bg-zinc-900 flex items-center justify-center">
-            <!-- Mockup of the Coach Card -->
-            <div class="w-4/5 h-40 rounded-xl relative overflow-hidden shadow-2xl transition-transform hover:scale-105 duration-500" 
-                 style="background: linear-gradient(135deg, #e3d5ca 0%, #d5bdaf 100%); border: 1px solid rgba(255,255,255,0.2);">
-                <div class="absolute inset-0 p-6 flex flex-col justify-between">
-                    <div>
-                        <div class="text-3xl font-black text-[#5e503f] tracking-tighter opacity-80">COACH</div>
-                        <div class="text-xs font-bold text-[#5e503f] tracking-widest mt-1">$750 GIFT CARD</div>
-                    </div>
-                    <div class="flex justify-end">
-                        <div class="text-6xl font-serif text-[#a98467] opacity-40 leading-none" style="margin-bottom: -10px; margin-right: -10px;">C</div>
-                    </div>
-                </div>
-            </div>
-            <div class="absolute -z-10 w-48 h-48 bg-yellow-500/10 blur-[100px]"></div>
-        </div>
-
-        <!-- Content -->
-        <div class="p-8">
-            <div class="flex items-center justify-between mb-8 pb-8 border-b border-white/5">
-                <div>
-                    <p class="text-xs text-zinc-500 uppercase tracking-widest mb-1">Estimated Value</p>
-                    <p class="text-3xl font-bold text-green-400">$750.00</p>
-                </div>
-                <div class="text-right">
-                    <p class="text-xs text-zinc-500 uppercase tracking-widest mb-1">Regions</p>
-                    <div class="flex space-x-2 justify-end mt-1">
-                        <span title="USA" class="grayscale hover:grayscale-0 transition-all cursor-default">🇺🇸</span>
-                        <span title="UK" class="grayscale hover:grayscale-0 transition-all cursor-default">🇬🇧</span>
-                        <span title="Australia" class="grayscale hover:grayscale-0 transition-all cursor-default">🇦🇺</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Steps -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-                <div class="flex flex-col items-start">
-                    <div class="step-number">1</div>
-                    <h3 class="text-lg font-semibold mb-1">Access Portal</h3>
-                    <p class="text-zinc-400 text-sm">Securely navigate to the rewards portal using the button below.</p>
-                </div>
+    <main class="w-full max-w-md">
+        <div class="gradient-border shadow-2xl">
+            <div class="content-card overflow-hidden">
                 
-                <div class="flex flex-col items-start">
-                    <div class="step-number">2</div>
-                    <h3 class="text-lg font-semibold mb-1">Enter Info</h3>
-                    <p class="text-zinc-400 text-sm">Provide your email and basic info to initialize your profile.</p>
+                <!-- Stylized "Product" Placeholder Image -->
+                <div class="w-full h-56 bg-zinc-900 flex flex-col items-center justify-center p-8 relative overflow-hidden">
+                    <!-- Decorative background elements -->
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full -mr-16 -mt-16 blur-2xl"></div>
+                    <div class="absolute bottom-0 left-0 w-32 h-32 bg-white/5 rounded-full -ml-16 -mb-16 blur-2xl"></div>
+                    
+                    <div class="z-10 text-center">
+                        <div class="text-xs tracking-[0.4em] uppercase text-zinc-500 mb-2">Rhode</div>
+                        <div class="text-5xl font-black text-white">$500</div>
+                        <div class="text-lg font-medium text-zinc-400 mt-1 uppercase tracking-widest border-t border-zinc-800 pt-2">Gift Card</div>
+                    </div>
                 </div>
 
-                <div class="flex flex-col items-start">
-                    <div class="step-number">3</div>
-                    <h3 class="text-lg font-semibold mb-1">Complete Deals</h3>
-                    <p class="text-zinc-400 text-sm">Follow instructions to complete 3-5 required deals.</p>
-                </div>
+                <!-- Steps Container -->
+                <div class="p-6 md:p-8">
+                    <h2 class="text-lg font-bold mb-6 text-zinc-300 uppercase tracking-wide">How to claim:</h2>
+                    
+                    <div class="space-y-6">
+                        <!-- Step 1 -->
+                        <div class="flex items-start gap-4">
+                            <div class="step-number">1</div>
+                            <div>
+                                <p class="font-semibold text-white">Click the button below</p>
+                                <p class="text-sm text-zinc-500">Access the official portal to begin.</p>
+                            </div>
+                        </div>
 
-                <div class="flex flex-col items-start">
-                    <div class="step-number">4</div>
-                    <h3 class="text-lg font-semibold mb-1">Receive Reward</h3>
-                    <p class="text-zinc-400 text-sm">Collect your award once your participation is verified.</p>
+                        <!-- Step 2 -->
+                        <div class="flex items-start gap-4">
+                            <div class="step-number">2</div>
+                            <div>
+                                <p class="font-semibold text-white">Enter email & basic info</p>
+                                <p class="text-sm text-zinc-500">Provide accurate details for verification.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="flex items-start gap-4">
+                            <div class="step-number text-white bg-zinc-700">3</div>
+                            <div>
+                                <p class="font-semibold text-white">Complete 3-5 deals <span class="text-xs bg-zinc-800 text-zinc-400 px-2 py-0.5 rounded ml-1 italic font-normal">Required</span></p>
+                                <p class="text-sm text-zinc-500">Must finish the specified number of deals.</p>
+                            </div>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="flex items-start gap-4">
+                            <div class="step-number">4</div>
+                            <div>
+                                <p class="font-semibold text-white">Claim your reward</p>
+                                <p class="text-sm text-zinc-500">Receive your $500 gift card via email.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA Button -->
+                    <div class="mt-10">
+                        <a href="https://linkthem.net/aff_c?offer_id=4166&aff_id=165890" 
+                           class="cta-button block w-full bg-white text-black font-extrabold text-center py-4 rounded-xl text-lg hover:bg-zinc-200 shadow-lg shadow-white/5">
+                            GET STARTED NOW
+                        </a>
+                        <p class="text-center text-[10px] text-zinc-600 mt-4 px-4">
+                            Subject to terms and conditions. Must be 18+ and a US resident. Reward issued upon completion of required tasks.
+                        </p>
+                    </div>
                 </div>
             </div>
-
-            <!-- CTA -->
-            <a href="https://linkthem.net/aff_c?offer_id=4280&aff_id=165890" 
-               class="cta-button w-full py-5 rounded-xl flex items-center justify-center text-black font-bold text-lg uppercase tracking-wide group">
-                Continue to Reward
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                </svg>
-            </a>
-            
-            <p class="text-center text-zinc-500 text-[10px] mt-6 leading-relaxed">
-                Offer ID #4280. Participation required. Subject to the terms and conditions of the reward provider. 
-                This site acts as an independent bridge to official rewards programs.
-            </p>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="w-full max-w-2xl text-center border-t border-white/5 pt-8">
-        <div class="flex justify-center space-x-6 text-zinc-500 text-xs mb-4">
-            <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
-            <a href="#" class="hover:text-white transition-colors">Contact Support</a>
+    <footer class="mt-auto pt-12 pb-4 text-center text-zinc-700 text-xs tracking-tight">
+        <p>&copy; 2026 Rewards US Program. All rights reserved.</p>
+        <div class="mt-2 flex justify-center gap-4">
+            <span class="hover:text-zinc-500 cursor-pointer">Privacy Policy</span>
+            <span class="hover:text-zinc-500 cursor-pointer">Terms of Service</span>
         </div>
-        <p class="text-zinc-600 text-[10px]">
-            &copy; 2024 Rewards Discovery. All brand names and trademarks are the property of their respective owners.
-        </p>
     </footer>
 
 </body>
