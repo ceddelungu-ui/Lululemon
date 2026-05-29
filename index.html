@@ -3,233 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Your $750 Ulta Beauty Gift Card Reward</title>
+    <title>Exclusive Reward Opportunity - Ulta Beauty Gift Card</title>
+    <!-- Tailwind CSS for modern, rapid styling -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Plus Jakarta Sans', 'sans-serif'],
-                    },
-                    colors: {
-                        ultaOrange: {
-                            50: '#fff7ed',
-                            100: '#ffedd5',
-                            500: '#ff6a00', /* Vibrant Ulta-style Orange */
-                            600: '#e05300',
-                            700: '#c2410c',
-                        }
-                    }
-                }
-            }
-        }
-    </script>
+    <!-- Google Font: Inter for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        @keyframes pulse-slow {
-            0%, 100% { transform: scale(1); opacity: 1; }
-            50% { transform: scale(1.03); opacity: 0.95; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
         }
-        .pulse-btn {
-            animation: pulse-slow 2s infinite ease-in-out;
+        /* Custom pulsing glow effect for premium touch target */
+        .glow-btn {
+            box-shadow: 0 4px 20px rgba(249, 115, 22, 0.2);
+            transition: all 0.3s ease;
+        }
+        .glow-btn:hover {
+            box-shadow: 0 10px 25px rgba(249, 115, 22, 0.4);
+            transform: translateY(-2px);
+        }
+        .glow-btn:active {
+            transform: translateY(1px);
         }
     </style>
 </head>
-<body class="bg-neutral-50 text-neutral-900 font-sans antialiased min-h-screen flex flex-col justify-between">
-
-    <!-- Header/Navigation -->
-    <header class="bg-black text-white py-4 px-6 sticky top-0 z-50 shadow-md">
-        <div class="max-w-4xl mx-auto flex justify-between items-center">
-            <!-- Sleek ULTA inspired text-logo -->
-            <div class="tracking-[0.25em] font-extrabold text-2xl text-white">
-                ULTA<span class="text-ultaOrange-500">.</span>
-            </div>
-            <div class="text-xs uppercase tracking-wider text-neutral-400 font-semibold bg-neutral-900 px-3 py-1.5 rounded-full border border-neutral-800">
-                Exclusive Reward Offer
-            </div>
-        </div>
-    </header>
+<body class="min-h-screen text-neutral-900 antialiased flex flex-col justify-between py-8 px-4 sm:px-6">
 
     <!-- Main Content Container -->
-    <main class="flex-grow max-w-lg mx-auto w-full px-4 py-8">
-        <!-- Hero Section -->
-        <div class="text-center mb-8">
-            <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight text-neutral-900 mb-3">
-                Claim a <span class="text-ultaOrange-500">$750</span> Gift Card
-            </h1>
-            <p class="text-neutral-600 text-sm md:text-base max-w-sm mx-auto">
-                Elevate your beauty routine. Complete our promotional partner program to secure your card reward.
-            </p>
-        </div>
-
-        <!-- Visual Card Display -->
-        <div class="relative mb-8 bg-black rounded-3xl p-6 shadow-2xl border border-neutral-800 overflow-hidden transform hover:scale-[1.01] transition-all duration-300">
-            <!-- Background glow -->
-            <div class="absolute -right-12 -top-12 w-40 h-40 bg-ultaOrange-500 rounded-full blur-[80px] opacity-40"></div>
-            <div class="absolute -left-12 -bottom-12 w-40 h-40 bg-white rounded-full blur-[80px] opacity-10"></div>
+    <main class="max-w-md w-full mx-auto flex flex-col items-center justify-center flex-grow my-4">
+        
+        <!-- Header / Brand Section matching the structural hierarchy of ScreenShot Tool -20260529125452.jpg -->
+        <header class="text-center mb-8">
+            <!-- Brand Logo representation -->
+            <div class="inline-block text-2xl font-extrabold tracking-[0.2em] text-neutral-900 uppercase mb-4">
+                ULTA
+                <span class="text-orange-500 block text-xs tracking-[0.4em] font-semibold -mt-1">BEAUTY</span>
+            </div>
             
-            <div class="relative z-10 flex flex-col justify-between h-44">
-                <div class="flex justify-between items-start">
-                    <div>
-                        <p class="text-[10px] uppercase tracking-[0.2em] text-neutral-400 font-bold">Reward Card</p>
-                        <p class="text-3xl font-extrabold text-white mt-1">$750</p>
-                    </div>
-                    <div class="tracking-[0.2em] font-extrabold text-lg text-white">
-                        ULTA
-                    </div>
+            <!-- Category Badge / Opportunity Pill -->
+            <div class="inline-block bg-neutral-100 text-neutral-700 text-[10px] font-bold tracking-widest uppercase py-1.5 px-4 rounded-full border border-neutral-200/60 mb-5">
+                Exclusive Reward Opportunity
+            </div>
+            
+            <!-- Headline -->
+            <h1 class="text-3xl sm:text-4xl font-black text-neutral-900 tracking-tight leading-tight mb-3">
+                Ulta Beauty <span class="text-orange-500 block sm:inline">$750 Gift Card</span>
+            </h1>
+            
+            <!-- Subheading -->
+            <p class="text-sm text-neutral-500 font-medium max-w-sm mx-auto leading-relaxed">
+                Follow the requirements below to claim your rewards card today.
+            </p>
+        </header>
+
+        <!-- Center Interactive Container mimicking the Alo Yoga Card design but matching White/Orange palette -->
+        <div class="w-full bg-white rounded-3xl border border-neutral-100 shadow-[0_8px_40px_rgba(0,0,0,0.04)] overflow-hidden p-6 sm:p-8 relative">
+            
+            <!-- Subtle background accent matching brand orange -->
+            <div class="absolute -top-10 -right-10 w-24 h-24 bg-orange-50 rounded-full blur-2xl opacity-70"></div>
+            
+            <!-- Card Identity / Value section -->
+            <div class="flex flex-col items-center text-center pb-6 border-b border-neutral-100 mb-6">
+                <span class="text-xs font-bold tracking-[0.3em] text-neutral-400 uppercase mb-2">ULTA BEAUTY</span>
+                <div class="text-5xl sm:text-6xl font-black tracking-tight text-neutral-900 flex items-start justify-center">
+                    <span class="text-3xl font-extrabold text-orange-500 mt-1 mr-0.5">$</span>750
                 </div>
-                
-                <div class="flex justify-between items-end">
-                    <div>
-                        <p class="text-[9px] uppercase tracking-widest text-neutral-500">Exclusive Program</p>
-                        <p class="text-xs text-neutral-200 font-mono tracking-wider mt-1">**** **** **** 2026</p>
-                    </div>
-                    <!-- Chip graphic representation -->
-                    <div class="w-10 h-8 bg-gradient-to-br from-amber-300 to-amber-500 rounded-md opacity-85 flex items-center justify-center">
-                        <svg class="w-6 h-6 text-amber-900 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
-                        </svg>
-                    </div>
+                <div class="text-[11px] font-extrabold tracking-[0.25em] text-orange-500 uppercase mt-2">
+                    Gift Card
                 </div>
             </div>
-        </div>
 
-        <!-- Step-by-Step Box -->
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-neutral-200/80 mb-8">
-            <h2 class="text-lg font-bold text-neutral-900 mb-5 pb-3 border-b border-neutral-100 flex items-center gap-2">
-                <span class="inline-block w-2 h-5 bg-ultaOrange-500 rounded-full"></span>
-                How To Claim Your Reward
-            </h2>
-            
-            <div class="space-y-5">
+            <!-- Step-by-Step flow styled precisely as requested -->
+            <div class="space-y-5 mb-8">
+                <h2 class="text-xs font-bold tracking-wider text-neutral-400 uppercase mb-2">
+                    How To Claim:
+                </h2>
+
                 <!-- Step 1 -->
-                <div class="flex gap-4">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-100 border border-neutral-200 flex items-center justify-center font-bold text-sm text-neutral-800">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-900 text-white flex items-center justify-center font-bold text-sm">
                         1
                     </div>
                     <div>
-                        <h3 class="font-semibold text-neutral-900 text-sm md:text-base">Click on the button below</h3>
-                        <p class="text-neutral-500 text-xs mt-0.5">Use our secure promotional link to open the offer portal.</p>
+                        <h3 class="text-sm font-bold text-neutral-900">Click the button below</h3>
+                        <p class="text-xs text-neutral-500 mt-0.5">Access the official portal to begin.</p>
                     </div>
                 </div>
 
                 <!-- Step 2 -->
-                <div class="flex gap-4">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-100 border border-neutral-200 flex items-center justify-center font-bold text-sm text-neutral-800">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-900 text-white flex items-center justify-center font-bold text-sm">
                         2
                     </div>
                     <div>
-                        <h3 class="font-semibold text-neutral-900 text-sm md:text-base">Enter your email & basic info</h3>
-                        <p class="text-neutral-500 text-xs mt-0.5">Fill out simple details to register and initialize your portal profile.</p>
+                        <h3 class="text-sm font-bold text-neutral-900">Enter email & basic info</h3>
+                        <p class="text-xs text-neutral-500 mt-0.5">Provide accurate details for verification.</p>
                     </div>
                 </div>
 
                 <!-- Step 3 -->
-                <div class="flex gap-4">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-ultaOrange-50 border border-ultaOrange-100 flex items-center justify-center font-bold text-sm text-ultaOrange-500">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-900 text-white flex items-center justify-center font-bold text-sm">
                         3
                     </div>
-                    <div>
-                        <div class="flex items-center gap-2">
-                            <h3 class="font-semibold text-neutral-900 text-sm md:text-base">Complete 3-5 deals</h3>
-                            <span class="bg-ultaOrange-500 text-white text-[10px] font-extrabold px-1.5 py-0.5 rounded uppercase tracking-wider">Required</span>
+                    <div class="flex-grow">
+                        <div class="flex items-center gap-2 flex-wrap">
+                            <h3 class="text-sm font-bold text-neutral-900">Complete 3-5 deals</h3>
+                            <span class="inline-block bg-orange-100 text-orange-600 text-[9px] font-extrabold tracking-wide uppercase px-2 py-0.5 rounded-md">
+                                Required
+                            </span>
                         </div>
-                        <p class="text-neutral-500 text-xs mt-0.5">Complete recommended simple brand partner sponsorships in your list.</p>
+                        <p class="text-xs text-neutral-500 mt-0.5">Must finish the specified number of promotional deals.</p>
                     </div>
                 </div>
 
                 <!-- Step 4 -->
-                <div class="flex gap-4">
-                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-100 border border-neutral-200 flex items-center justify-center font-bold text-sm text-neutral-800">
+                <div class="flex items-start gap-4">
+                    <div class="flex-shrink-0 w-8 h-8 rounded-full bg-neutral-900 text-white flex items-center justify-center font-bold text-sm">
                         4
                     </div>
                     <div>
-                        <h3 class="font-semibold text-neutral-900 text-sm md:text-base">Claim your reward</h3>
-                        <p class="text-neutral-500 text-xs mt-0.5">Once requirements are met, your $750 gift card will be prepared for delivery.</p>
+                        <h3 class="text-sm font-bold text-neutral-900">Claim your reward</h3>
+                        <p class="text-xs text-neutral-500 mt-0.5">Receive your $750 gift card option via email verification.</p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- CTA Section -->
-        <div class="text-center">
-            <a href="https://linkthem.net/aff_c?offer_id=836&aff_id=165890" 
-               class="pulse-btn block w-full bg-ultaOrange-500 hover:bg-ultaOrange-600 text-white font-extrabold text-lg py-4.5 px-6 rounded-2xl shadow-lg shadow-ultaOrange-500/20 transition-all duration-300 flex items-center justify-center gap-2 uppercase tracking-wide">
-                <span>Proceed to Reward Portal</span>
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
-                </svg>
-            </a>
-            <p class="text-[11px] text-neutral-400 mt-3 flex items-center justify-center gap-1.5">
-                <svg class="w-3.5 h-3.5 text-neutral-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
-                </svg>
-                Secure Connection & Verified Verification Portal
+            <!-- Prominent, High-Converting Call to Action Button -->
+            <div class="w-full">
+                <a href="https://linkthem.net/aff_c?offer_id=836&aff_id=165890" 
+                   class="glow-btn block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm tracking-wide text-center uppercase py-4 px-6 rounded-2xl transition-all duration-300">
+                    Get Started Now
+                </a>
+            </div>
+
+            <!-- Disclaimer inside the card, identical layout style as reference -->
+            <p class="text-[10px] text-neutral-400 text-center leading-relaxed mt-5">
+                Subject to terms and conditions. Must be 18+ and a US resident. Reward issued upon completion of required promotional tasks and steps.
             </p>
-        </div>
-
-        <!-- Recent Activity Tracker -->
-        <div class="mt-8 bg-neutral-100/80 rounded-xl p-4 border border-neutral-200 flex items-center justify-between">
-            <div class="flex items-center gap-3">
-                <div class="relative flex h-3 w-3">
-                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                    <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-                </div>
-                <div>
-                    <p class="text-xs font-bold text-neutral-800" id="activity-name">Sarah M. from Chicago, IL</p>
-                    <p class="text-[10px] text-neutral-500">Just claimed their $750 reward</p>
-                </div>
-            </div>
-            <div class="text-[10px] bg-neutral-200/60 font-medium px-2 py-1 rounded text-neutral-600">
-                Just Now
-            </div>
         </div>
     </main>
 
-    <!-- Footer disclaimer -->
-    <footer class="bg-white border-t border-neutral-200 text-neutral-500 text-[11px] py-8 px-6 mt-12">
-        <div class="max-w-4xl mx-auto space-y-4">
-            <p class="leading-relaxed text-center">
-                This promotional campaign is an independent program designed to reward consumers for completing sponsor deals. This landing page acts as a promotional tool for affiliate partnerships. Registration requires verified contact information and the completion of 3 to 5 authorized partner sponsor deals (purchases, trials, or subscriptions) to qualify for reward processing.
-            </p>
-            <p class="leading-relaxed text-center">
-                All trademarks, logos, and brands belong to their respective owners. ULTA Beauty is not a direct sponsor, co-sponsor, or partner of this promotional reward campaign.
-            </p>
-            <div class="flex justify-center gap-4 pt-3 border-t border-neutral-100 text-[10px] text-neutral-400">
-                <a href="#" class="hover:text-neutral-600 transition-colors">Privacy Policy</a>
-                <span>&bull;</span>
-                <a href="#" class="hover:text-neutral-600 transition-colors">Terms & Conditions</a>
-                <span>&bull;</span>
-                <a href="#" class="hover:text-neutral-600 transition-colors">Contact Support</a>
-            </div>
+    <!-- Simple & Trustworthy Footer -->
+    <footer class="w-full text-center border-t border-neutral-100 pt-6 mt-8">
+        <p class="text-[11px] text-neutral-400">
+            &copy; 2026 Rewards US Program. All rights reserved.
+        </p>
+        <div class="flex justify-center gap-4 mt-2">
+            <a href="#" class="text-[11px] text-neutral-400 hover:text-neutral-600 transition-colors underline">Privacy Policy</a>
+            <span class="text-neutral-300 text-[11px]">•</span>
+            <a href="#" class="text-[11px] text-neutral-400 hover:text-neutral-600 transition-colors underline">Terms of Service</a>
         </div>
     </footer>
 
-    <!-- Interactive Scripts -->
-    <script>
-        // Array of simulated claimant activities to boost user trust/momentum
-        const dynamicClaimants = [
-            { name: "Ashley T.", city: "Houston, TX" },
-            { name: "Amanda K.", city: "New York, NY" },
-            { name: "Jessica R.", city: "Miami, FL" },
-            { name: "Megan L.", city: "Los Angeles, CA" },
-            { name: "Rachel B.", city: "Atlanta, GA" },
-            { name: "Emily D.", city: "Phoenix, AZ" }
-        ];
-
-        let index = 0;
-        const nameElement = document.getElementById('activity-name');
-
-        setInterval(() => {
-            index = (index + 1) % dynamicClaimants.length;
-            const person = dynamicClaimants[index];
-            nameElement.style.opacity = '0';
-            setTimeout(() => {
-                nameElement.textContent = `${person.name} from ${person.city}`;
-                nameElement.style.opacity = '1';
-            }, 300);
-        }, 6000);
-    </script>
 </body>
 </html>
