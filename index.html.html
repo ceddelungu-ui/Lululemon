@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach Outlet - Checkout</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            background-color: #f3f4f6;
+        }
+        /* Custom tab folder curve effect */
+        .tab-active {
+            position: relative;
+            background-color: #ffffff;
+            color: #000000;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            z-index: 10;
+        }
+        .tab-active::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: -12px;
+            width: 12px;
+            height: 12px;
+            background: radial-gradient(circle at top left, transparent 12px, #ffffff 12px);
+            z-index: 5;
+        }
+        .tab-active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: -12px;
+            width: 12px;
+            height: 12px;
+            background: radial-gradient(circle at top right, transparent 12px, #ffffff 12px);
+            z-index: 5;
+        }
+        /* Custom scrollbar hiding */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex justify-center py-0 sm:py-8">
+
+    <!-- Mobile Wrapper Viewport matching phone dimensions exactly -->
+    <div class="w-full max-w-[480px] bg-[#f6f6f6] min-h-screen sm:min-h-[850px] sm:rounded-3xl sm:shadow-2xl overflow-hidden flex flex-col relative border border-gray-200">
+        
+        <!-- PREMIUM FOLDER-STYLE TAB HEADER (Exact representation matching IMG_0296_3.jpeg) -->
+        <div class="bg-[#1c1c1c] pt-2.5 px-3 border-b border-gray-200 sticky top-0 z-50">
+            <div class="flex items-end h-[42px]">
+                <!-- Active Coach Tab -->
+                <div class="tab-active w-[120px] h-full flex items-center justify-center cursor-pointer">
+                    <span class="font-serif font-black text-[15px] tracking-[0.22em] text-black leading-none transform translate-y-[2px]">COACH</span>
+                </div>
+                <!-- Inactive Coach Outlet Tab -->
+                <div class="w-1/2 bg-[#1c1c1c] h-full flex items-center justify-start pl-6 cursor-pointer">
+                    <span class="font-serif font-bold text-[12px] tracking-[0.16em] text-white leading-none">
+                        COACH <span class="font-sans text-[8px] font-normal tracking-wide text-gray-300 ml-0.5">OUTLET</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ACCORDION SUMMARY HEADER (Thinned typography to match references perfectly) -->
+        <div class="bg-white border-b border-gray-200 px-4 py-4 flex justify-between items-center text-sm">
+            <span class="font-semibold text-gray-900 text-[15px] tracking-tight">Your Summary</span>
+            <button id="toggle-top-summary" class="flex items-center gap-1.5 font-normal text-gray-800 focus:outline-none hover:text-black text-[14px]">
+                <span>Bag(1) <span id="summary-header-price" class="font-normal text-gray-900 ml-1">$323.76</span></span>
+                <svg id="summary-header-arrow" class="w-4 h-4 transform transition-transform text-gray-500" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- SCROLLABLE CONTENT BODY -->
+        <div class="flex-grow overflow-y-auto no-scrollbar pb-24">
+            
+            <!-- EXPRESS CHECKOUT SECTION (Polished to look exactly like the image) -->
+            <div class="m-3 p-4 bg-white rounded-2xl border border-gray-100 shadow-[0_2px_8px_rgba(0,0,0,0.015)]">
+                <h3 class="text-[17px] font-extrabold text-gray-900 tracking-tight mb-4">Checkout faster</h3>
+                
+                <!-- Quick Pay Buttons Grid -->
+                <div class="grid grid-cols-4 gap-1.5 mb-4">
+                    <!-- PayPal -->
+                    <button class="bg-[#f6c243] hover:bg-[#ebd024] h-[38px] rounded-full flex items-center justify-center transition shadow-sm">
+                        <span class="text-[#003087] font-black italic text-[14px] tracking-tighter">Pay</span><span class="text-[#0079c1] font-black italic text-[14px] tracking-tighter">Pal</span>
+                    </button>
+                    <!-- Amazon Pay (Perfect inline-alignment of both words) -->
+                    <button class="bg-[#fbc833] hover:bg-[#ebd024] h-[38px] rounded-full flex items-center justify-center transition shadow-sm">
+                        <div class="flex items-center justify-center leading-none">
+                            <div class="relative inline-flex items-center leading-none">
+                                <span class="text-[#111111] font-black text-[13.5px] tracking-tight select-none">amazon</span>
+                                <!-- Curved Orange Smile Vector Graphic drawn absolutely outside text box boundary -->
+                                <svg class="absolute -bottom-[4px] left-[0.5px] w-[45px] h-[5px] text-[#e47911]" viewBox="0 0 50 6" fill="none">
+                                    <path d="M2 1C15 4.5, 35 4.5, 48 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                    <path d="M45 0.5 L 49 1 L 46.5 3.5 Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <span class="text-[#111111] font-normal text-[13.5px] ml-0.5 select-none">pay</span>
+                        </div>
+                    </button>
+                    <!-- Apple Pay (Pixel-Perfect SVG layout alignment) -->
+                    <button class="bg-black hover:bg-gray-900 text-white h-[38px] rounded-full flex items-center justify-center transition shadow-sm">
+                        <div class="flex items-center justify-center gap-1">
+                            <svg class="fill-white" style="width: 14px; height: 14px; min-width: 14px; min-height: 14px; display: inline-block; transform: translateY(-0.5px);" viewBox="0 0 24 24">
+                                <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.08 16.74 19.67 18.11 18.71 19.5M15.97 4.17C16.63 3.37 17.07 2.28 16.95 1C16 1.04 14.9 1.6 14.24 2.38C13.68 3.04 13.19 4.14 13.34 5.39C14.39 5.47 15.4 4.88 15.97 4.17Z"/>
+                            </svg>
+                            <span class="font-bold text-sm tracking-tight leading-none">Pay</span>
+                        </div>
+                    </button>
+                    <!-- Shop Pay -->
+                    <button class="bg-[#5a31f4] hover:bg-[#4825cf] text-white h-[38px] rounded-full flex items-center justify-center transition shadow-sm">
+                        <div class="flex items-center justify-center">
+                            <span class="italic font-extrabold text-[13px] tracking-tight leading-none">shop</span>
+                            <span class="ml-0.5 bg-white/20 text-white text-[7px] font-bold px-1 py-0.5 rounded uppercase tracking-wide leading-none">Pay</span>
+                        </div>
+                    </button>
+                </div>
+
+                <p class="text-xs text-gray-500 font-medium mb-3">Pay in installments over time</p>
+                <div class="grid grid-cols-2 gap-2 mb-4">
+                    <!-- Klarna (No Dot / Period) -->
+                    <button class="bg-[#fba3c0] hover:bg-[#eaa0b4] text-black h-11 rounded-full flex items-center justify-center shadow-sm transition text-sm font-bold tracking-tight">
+                        Klarna
+                    </button>
+                    <!-- Afterpay (Exact Dollar Sign Logo representation from image zoom-in) -->
+                    <button class="bg-[#4be475] hover:bg-[#3ec861] text-black h-11 rounded-full flex items-center justify-center shadow-sm transition text-sm font-bold flex items-center gap-1.5 justify-center">
+                        <!-- Black rounded-corner square containing green dollar sign -->
+                        <div class="bg-black rounded-md flex items-center justify-center w-[22px] h-[22px]">
+                            <span class="text-[#4be475] font-sans text-[13px] font-black leading-none">$</span>
+                        </div>
+                        <span class="tracking-tight text-[14px]">Afterpay</span>
+                    </button>
+                </div>
+
+                <div class="flex items-center justify-between border-t border-gray-100 pt-3 text-[11px] text-gray-600 select-none">
+                    <button class="p-1 text-gray-400 hover:text-black">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+                    </button>
+                    <div class="flex flex-col items-center">
+                        <div class="flex items-center gap-1 justify-center leading-none">
+                            <span>or as low as</span>
+                            <span id="installment-amt" class="font-extrabold text-gray-900">$28.01</span><span>/mo. with</span>
+                            <!-- Custom Dollar Sign Badge for Afterpay inline descriptor -->
+                            <span class="inline-flex items-center justify-center rounded bg-black text-[#4be475] w-4.5 h-4.5">
+                                <span class="font-sans text-[10px] font-extrabold leading-none">$</span>
+                            </span>
+                            <span class="font-extrabold text-gray-900">Afterpay</span>
+                        </div>
+                        <a href="#" class="underline text-gray-500 font-semibold hover:text-black mt-0.5">Learn more</a>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <!-- Play/Pause indicators -->
+                        <div class="flex gap-[2px] items-center px-1.5 cursor-pointer">
+                            <span class="w-[2px] h-2.5 bg-gray-400"></span>
+                            <span class="w-[2px] h-2.5 bg-gray-400"></span>
+                        </div>
+                        <button class="p-1 text-gray-400 hover:text-black">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- WELCOME USER CARD (Renders exactly like second image IMG_0297.jpeg) -->
+            <div class="mx-3 my-2.5">
+                <div class="bg-white rounded-2xl border border-gray-100 shadow-[0_2px_8px_rgba(0,0,0,0.015)] p-4 flex items-center justify-center gap-3">
+                    <!-- Circular outlines profile icon -->
+                    <svg class="text-gray-950 stroke-current fill-none" style="width: 28px; height: 28px;" viewBox="0 0 24 24" stroke-width="1.3">
+                        <circle cx="12" cy="12" r="10" />
+                        <circle cx="12" cy="9.5" r="3" />
+                        <path d="M6 18c0-2.2 2.7-4 6-4s6 1.8 6 4" stroke-linecap="round" />
+                    </svg>
+                    <span class="text-[17px] text-gray-950 font-medium tracking-wide">Welcome Jess Brant</span>
+                </div>
+            </div>
+
+            <!-- DELIVERY DETAILS FORM SECTION -->
+            <div class="m-3 p-4 rounded-2xl border border-gray-100 bg-white shadow-[0_2px_8px_rgba(0,0,0,0.015)]">
+                <div class="flex justify-between items-center mb-4">
+                    <div class="flex items-center gap-2">
+                        <span class="w-6 h-6 rounded-full bg-black text-white text-xs font-bold flex items-center justify-center">1</span>
+                        <h2 class="text-[16px] font-extrabold text-gray-900 tracking-tight">Delivery Details</h2>
+                    </div>
+                    <span class="text-xs text-red-500 font-medium">*Required</span>
+                </div>
+
+                <!-- Fields -->
+                <div class="space-y-3">
+                    <!-- Email -->
+                    <div class="relative">
+                        <label class="block text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-1">Email<span class="text-red-500">*</span></label>
+                        <input type="email" value="whfjess@gmail.com" readonly class="w-full bg-white border border-gray-200 rounded-md px-3 py-2.5 text-sm font-medium text-gray-900 focus:outline-none pr-10">
+                        <span class="absolute right-3 top-[28px] text-green-600">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        </span>
+                    </div>
+
+                    <!-- Subscription Consent -->
+                    <div class="flex items-start gap-2.5 py-1">
+                        <input type="checkbox" checked id="newsletter-consent" class="mt-0.5 rounded border-gray-300 text-black focus:ring-black w-4.5 h-4.5 accent-black">
+                        <label for="newsletter-consent" class="text-[11px] text-gray-700 leading-normal font-medium">
+                            Sign up to receive Coach emails <span class="text-gray-400 font-normal">(you can withdraw your consent at any time).</span> Read our <a href="#" class="underline font-semibold hover:text-black">Privacy Policy.</a>
+                        </label>
+                    </div>
+
+                    <!-- First Name / Last Name Row -->
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="relative">
+                            <label class="block text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-1">First Name<span class="text-red-500">*</span></label>
+                            <input type="text" value="Jess" readonly class="w-full bg-white border border-gray-200 rounded-md px-3 py-2.5 text-sm font-medium text-gray-900 focus:outline-none pr-10">
+                            <span class="absolute right-3 top-[28px] text-green-600">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            </span>
+                        </div>
+                        <div class="relative">
+                            <label class="block text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-1">Last Name<span class="text-red-500">*</span></label>
+                            <input type="text" value="Brant" readonly class="w-full bg-white border border-gray-200 rounded-md px-3 py-2.5 text-sm font-medium text-gray-900 focus:outline-none pr-10">
+                            <span class="absolute right-3 top-[28px] text-green-600">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="relative">
+                        <label class="block text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-1">Address<span class="text-red-500">*</span></label>
+                        <input type="text" value="630 W 5th St" readonly class="w-full bg-white border border-gray-200 rounded-md px-3 py-2.5 text-sm font-medium text-gray-900 focus:outline-none pr-10">
+                        <span class="absolute right-3 top-[28px] text-green-600">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        </span>
+                    </div>
+
+                    <!-- Apt, Suite (Optional) -->
+                    <div>
+                        <input type="text" placeholder="Apt, Suite, Etc. (Optional)" class="w-full bg-white border border-gray-200 rounded-md px-3 py-2.5 text-sm font-medium text-gray-900 focus:outline-none">
+                    </div>
+
+                    <!-- City -->
+                    <div class="relative">
+                        <label class="block text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-1">City<span class="text-red-500">*</span></label>
+                        <input type="text" value="Los Angeles" readonly class="w-full bg-white border border-gray-200 rounded-md px-3 py-2.5 text-sm font-medium text-gray-900 focus:outline-none pr-10">
+                        <span class="absolute right-3 top-[28px] text-green-600">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        </span>
+                    </div>
+
+                    <!-- State & Zip -->
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="relative">
+                            <label class="block text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-1">State<span class="text-red-500">*</span></label>
+                            <div class="relative">
+                                <select class="w-full bg-white border border-gray-200 rounded-md px-3 py-2.5 text-sm font-medium text-gray-900 appearance-none focus:outline-none">
+                                    <option>California</option>
+                                </select>
+                                <span class="absolute right-3 top-3.5 text-gray-500 pointer-events-none">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path></svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <label class="block text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-1">Zip Code<span class="text-red-500">*</span></label>
+                            <input type="text" value="90071-2002" readonly class="w-full bg-white border border-gray-200 rounded-md px-3 py-2.5 text-sm font-medium text-gray-900 focus:outline-none pr-10">
+                            <span class="absolute right-3 top-[28px] text-green-600">
+                                <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="relative">
+                        <label class="block text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-1">Phone<span class="text-red-500">*</span></label>
+                        <input type="text" value="(213) 572-8624" readonly class="w-full bg-white border border-gray-200 rounded-md px-3 py-2.5 text-sm font-medium text-gray-900 focus:outline-none pr-10">
+                        <span class="absolute right-3 top-[28px] text-green-600">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        </span>
+                    </div>
+
+                    <!-- Primary Address Checkbox -->
+                    <div class="flex items-center gap-2.5 py-1">
+                        <input type="checkbox" checked id="primary-address" class="rounded border-gray-300 text-black focus:ring-black w-4.5 h-4.5 accent-black">
+                        <label for="primary-address" class="text-xs text-gray-800 font-bold">
+                            Make this my primary address
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Shipping Methods Info Link -->
+                <div class="mt-5 pt-4 border-t border-gray-100 flex items-center justify-between text-sm text-gray-900 font-bold">
+                    <span>Shipping Methods</span>
+                    <span class="w-4 h-4 rounded-full border border-gray-400 text-[10px] text-gray-500 font-bold flex items-center justify-center">i</span>
+                </div>
+
+                <!-- Gift wrapping box option -->
+                <div class="mt-4 p-4 border border-gray-200 rounded-md flex justify-between items-center text-sm">
+                    <div class="flex items-center gap-3 text-gray-800">
+                        <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+                        <span class="font-medium text-gray-700">Gift Message and Gift Wrap</span>
+                    </div>
+                    <button class="font-bold underline text-gray-900 hover:text-black">Add</button>
+                </div>
+            </div>
+
+            <!-- PAYMENT ACCORDIONS AND SELECTORS -->
+            <div class="m-3 p-4 rounded-2xl border border-gray-100 bg-white shadow-[0_2px_8px_rgba(0,0,0,0.015)]">
+                <div class="flex items-center gap-3 mb-1">
+                    <span class="w-6 h-6 rounded-full bg-black text-white text-[13px] font-bold flex items-center justify-center">2</span>
+                    <h2 class="text-[17px] font-bold text-black tracking-tight">Payment</h2>
+                </div>
+                <p class="text-[14px] text-black mb-4">Your payment details are encrypted.</p>
+
+                <!-- Collapsible Modules (Premium light-gray cards aligned with user request illustration) -->
+                <div class="space-y-3.5 mb-6">
+                    <!-- Apply Promo Accordion Block -->
+                    <div>
+                        <div id="promo-header" class="bg-[#f8f8f8] rounded-lg px-4 py-3.5 flex justify-between items-center cursor-pointer transition hover:bg-gray-100 select-none">
+                            <span class="text-[#0055b8] font-normal text-[15px]">Apply Promo</span>
+                            <span id="promo-icon" class="text-gray-500 text-lg font-light leading-none">+</span>
+                        </div>
+                        <div id="promo-body" class="hidden px-4 pb-4 bg-[#f8f8f8] -mt-2 rounded-b-lg">
+                            <div class="flex gap-2 pt-2">
+                                <input type="text" placeholder="Enter Promo Code" class="flex-grow bg-white border border-gray-300 rounded px-3 py-2 text-sm uppercase placeholder-gray-400 focus:outline-none">
+                                <button class="bg-black hover:bg-gray-900 text-white font-bold text-xs px-4 py-2 rounded uppercase tracking-wider">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add Gift Card Accordion Block (Recreated exactly like the image) -->
+                    <div class="bg-[#f8f8f8] rounded-lg p-4">
+                        <div id="giftcard-header" class="flex justify-between items-center cursor-pointer select-none">
+                            <span class="text-black font-semibold text-[15px]">Add Gift Card</span>
+                            <span id="giftcard-icon" class="text-gray-500 text-lg font-light leading-none">−</span>
+                        </div>
+                        
+                        <div id="giftcard-body" class="mt-4 block">
+                            <!-- Input Fields inside a single custom boundary layout -->
+                            <div class="flex border border-gray-300 rounded-lg overflow-hidden bg-white mb-3 h-12 shadow-sm">
+                                <!-- Card Number Input -->
+                                <input type="text" id="gift-card-input" placeholder="1234 5678 9012 34" class="w-3/5 px-4 text-sm font-normal text-gray-800 placeholder-gray-300 bg-transparent focus:outline-none border-r border-gray-300" maxlength="23">
+                                <!-- PIN Input -->
+                                <input type="password" id="gift-card-pin" placeholder="123" class="w-2/5 px-4 text-sm font-normal text-gray-800 placeholder-gray-300 bg-transparent focus:outline-none" maxlength="4">
+                            </div>
+
+                            <!-- Redeem Button -->
+                            <button id="gift-card-redeem-btn" class="bg-black hover:bg-gray-900 text-white font-medium text-sm px-6 py-2.5 transition rounded-none select-none">
+                                Redeem
+                            </button>
+
+                            <!-- Custom Alert/Notification Message Box -->
+                            <div id="redeem-notification" class="mt-3 px-3 py-2.5 rounded text-xs font-semibold hidden"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DETAILED PAYMENT RADIOS & LOGOS MATCHING IMG_0295_2.jpeg PERFECTLY -->
+                <div class="space-y-4">
+                    
+                    <!-- PayPal -->
+                    <div class="flex items-center gap-3.5 py-2.5 border-b border-gray-100">
+                        <div class="relative flex items-center">
+                            <input type="radio" name="payment-method" id="pay-paypal" value="paypal" class="peer appearance-none w-5 h-5 rounded-full border border-gray-300 checked:border-black focus:outline-none cursor-pointer">
+                            <div class="absolute w-2.5 h-2.5 bg-black rounded-full left-[5px] scale-0 peer-checked:scale-100 transition-transform pointer-events-none"></div>
+                        </div>
+                        <label for="pay-paypal" class="cursor-pointer flex items-center select-none">
+                            <span class="font-sans italic font-extrabold text-[16px] tracking-tight">
+                                <span class="text-[#003087]">Pay</span><span class="text-[#0079c1]">Pal</span>
+                            </span>
+                        </label>
+                    </div>
+
+                    <!-- Amazon Pay (Accurately proportioned inside Payment Radio options) -->
+                    <div class="flex items-center gap-3.5 py-2.5 border-b border-gray-100">
+                        <div class="relative flex items-center">
+                            <input type="radio" name="payment-method" id="pay-amazon" value="amazon" class="peer appearance-none w-5 h-5 rounded-full border border-gray-300 checked:border-black focus:outline-none cursor-pointer">
+                            <div class="absolute w-2.5 h-2.5 bg-black rounded-full left-[5px] scale-0 peer-checked:scale-100 transition-transform pointer-events-none"></div>
+                        </div>
+                        <label for="pay-amazon" class="cursor-pointer flex items-center select-none">
+                            <div class="flex flex-col relative leading-none pb-0.5">
+                                <div class="flex items-baseline">
+                                    <span class="font-black text-[14px] text-black tracking-tight leading-none">amazon</span>
+                                    <span class="font-light text-[14px] text-black ml-0.5 leading-none">pay</span>
+                                </div>
+                                <svg class="absolute -bottom-[6px] left-[0.5px] w-12 h-1 text-[#ff9900]" viewBox="0 0 50 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 1C15 4.5, 35 4.5, 48 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                                    <path d="M45 0.5 L 49 1 L 46.5 3.5 Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                        </label>
+                    </div>
+
+                    <!-- Apple Pay (Preselected & Sized Perfectly parallel to standard fonts) -->
+                    <div class="py-2.5 border-b border-gray-100">
+                        <div class="flex items-center gap-3.5">
+                            <div class="relative flex items-center">
+                                <input type="radio" name="payment-method" id="pay-applepay" value="applepay" checked class="peer appearance-none w-5 h-5 rounded-full border border-gray-300 checked:border-black focus:outline-none cursor-pointer">
+                                <div class="absolute w-2.5 h-2.5 bg-black rounded-full left-[5px] scale-0 peer-checked:scale-100 transition-transform pointer-events-none"></div>
+                            </div>
+                            <label for="pay-applepay" class="cursor-pointer flex items-center select-none">
+                                <div class="flex items-center gap-1">
+                                    <svg class="fill-black" style="width: 15px; height: 15px; min-width: 15px; min-height: 15px; display: inline-block; transform: translateY(-0.5px);" viewBox="0 0 24 24">
+                                        <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.08 16.74 19.67 18.11 18.71 19.5M15.97 4.17C16.63 3.37 17.07 2.28 16.95 1C16 1.04 14.9 1.6 14.24 2.38C13.68 3.04 13.19 4.14 13.34 5.39C14.39 5.47 15.4 4.88 15.97 4.17Z"/>
+                                    </svg>
+                                    <span class="font-bold text-[16px] text-black tracking-tight leading-none">Pay</span>
+                                </div>
+                            </label>
+                        </div>
+                        <!-- Explanatory subtext for Apple Pay (cleanly structured) -->
+                        <div id="applepay-explainer" class="mt-3 ml-[34px] text-[12px] text-gray-800 font-normal leading-relaxed">
+                            Once you click "Pay with Apple Pay" button, you will be redirected to Apple Pay.
+                        </div>
+                    </div>
+
+                    <!-- Shop Pay -->
+                    <div class="flex items-center gap-3.5 py-2.5 border-b border-gray-100">
+                        <div class="relative flex items-center">
+                            <input type="radio" name="payment-method" id="pay-shoppay" value="shoppay" class="peer appearance-none w-5 h-5 rounded-full border border-gray-300 checked:border-black focus:outline-none cursor-pointer">
+                            <div class="absolute w-2.5 h-2.5 bg-black rounded-full left-[5px] scale-0 peer-checked:scale-100 transition-transform pointer-events-none"></div>
+                        </div>
+                        <label for="pay-shoppay" class="cursor-pointer flex items-center select-none">
+                            <div class="flex items-center">
+                                <span class="italic font-extrabold text-[15px] text-[#5a31f4] tracking-tight leading-none mr-1">shop</span>
+                                <span class="bg-[#5a31f4] text-white text-[9px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide leading-none">Pay</span>
+                            </div>
+                        </label>
+                    </div>
+
+                    <!-- Klarna (No period, clean descriptive inline text) -->
+                    <div class="flex items-center gap-3.5 py-2.5 border-b border-gray-100">
+                        <div class="relative flex items-center">
+                            <input type="radio" name="payment-method" id="pay-klarna" value="klarna" class="peer appearance-none w-5 h-5 rounded-full border border-gray-300 checked:border-black focus:outline-none cursor-pointer">
+                            <div class="absolute w-2.5 h-2.5 bg-black rounded-full left-[5px] scale-0 peer-checked:scale-100 transition-transform pointer-events-none"></div>
+                        </div>
+                        <label for="pay-klarna" class="cursor-pointer flex items-baseline select-none w-full">
+                            <div class="flex items-center justify-between w-full">
+                                <span class="font-black text-[15px] text-black tracking-tight leading-none">Klarna</span>
+                                <span class="text-[12px] text-gray-500 font-normal leading-tight text-right pr-2">Pay in 4 interest free<br>installments</span>
+                            </div>
+                        </label>
+                    </div>
+
+                    <!-- Afterpay (Black square + green dollar sign next to Afterpay bold wordmark) -->
+                    <div class="flex items-center gap-3.5 py-2.5 border-b border-gray-100">
+                        <div class="relative flex items-center">
+                            <input type="radio" name="payment-method" id="pay-afterpay" value="afterpay_opt" class="peer appearance-none w-5 h-5 rounded-full border border-gray-300 checked:border-black focus:outline-none cursor-pointer">
+                            <div class="absolute w-2.5 h-2.5 bg-black rounded-full left-[5px] scale-0 peer-checked:scale-100 transition-transform pointer-events-none"></div>
+                        </div>
+                        <label for="pay-afterpay" class="cursor-pointer flex items-center select-none w-full">
+                            <div class="flex items-center justify-between w-full">
+                                <div class="flex items-center gap-1.5">
+                                    <div class="bg-black rounded-md flex items-center justify-center w-[22px] h-[22px]">
+                                        <span class="text-[#4be475] font-sans text-[13px] font-black leading-none">$</span>
+                                    </div>
+                                    <span class="font-extrabold text-[15px] text-black tracking-tight leading-none">Afterpay</span>
+                                </div>
+                                <span class="text-[12px] text-gray-500 font-normal leading-tight text-right pr-2">Pay in 4 interest free<br>installments</span>
+                            </div>
+                        </label>
+                    </div>
+
+                    <!-- Affirm (Black sweep arc seamlessly positioned over "fi") -->
+                    <div class="flex items-center gap-3.5 py-2.5 border-b border-gray-100">
+                        <div class="relative flex items-center">
+                            <input type="radio" name="payment-method" id="pay-affirm" value="affirm" class="peer appearance-none w-5 h-5 rounded-full border border-gray-300 checked:border-black focus:outline-none cursor-pointer">
+                            <div class="absolute w-2.5 h-2.5 bg-black rounded-full left-[5px] scale-0 peer-checked:scale-100 transition-transform pointer-events-none"></div>
+                        </div>
+                        <label for="pay-affirm" class="cursor-pointer flex items-center select-none w-full">
+                            <div class="flex items-center justify-between w-full">
+                                <div class="flex items-center">
+                                    <span class="font-black text-[15px] text-black tracking-tighter relative lowercase leading-none mr-2">
+                                        <span class="absolute -top-[5px] left-[14px] w-[24px] h-[10px] border-t-2 border-black rounded-t-full pointer-events-none"></span>
+                                        affirm
+                                    </span>
+                                </div>
+                                <span class="text-[12px] text-gray-500 font-normal leading-tight text-right pr-2">Pay in 4 interest free<br>installments</span>
+                            </div>
+                        </label>
+                    </div>
+
+                </div>
+
+                <!-- PAY WITH APPLE PAY BUTTON (Perfect rounded-pill representation from screenshot) -->
+                <div class="mt-8">
+                    <button class="w-full bg-black hover:bg-gray-900 text-white font-medium text-sm py-4 rounded-full flex items-center justify-center gap-1.5 transition select-none tracking-tight">
+                        <span>PAY WITH</span>
+                        <svg class="fill-white" style="width: 14px; height: 14px; min-width: 14px; min-height: 14px; display: inline-block; transform: translateY(-0.5px);" viewBox="0 0 24 24">
+                            <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.08 16.74 19.67 18.11 18.71 19.5M15.97 4.17C16.63 3.37 17.07 2.28 16.95 1C16 1.04 14.9 1.6 14.24 2.38C13.68 3.04 13.19 4.14 13.34 5.39C14.39 5.47 15.4 4.88 15.97 4.17Z"/>
+                        </svg>
+                        <span class="font-extrabold text-[15px]">Pay</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- DETAILED BAG SUMMARY AND MATH CALCULATION -->
+            <div class="m-3 p-4 rounded-2xl border border-gray-100 bg-white shadow-[0_2px_8px_rgba(0,0,0,0.015)]">
+                <div class="flex justify-between items-baseline mb-4">
+                    <h3 class="text-lg font-extrabold text-gray-900">Your Summary</h3>
+                    <div class="flex items-center gap-1">
+                        <span class="text-xs text-gray-500 font-medium">Bag (1)</span>
+                        <button class="text-xs text-gray-900 underline font-bold ml-1.5 hover:text-black">Edit Bag</button>
+                    </div>
+                </div>
+
+                <!-- Bag Product details (Using cdz39_b4l38_a0.jpg) -->
+                <div class="flex gap-4 mb-5 border-b border-gray-100 pb-5">
+                    <!-- Image container -->
+                    <div class="w-20 h-20 bg-gray-50 border border-gray-200 rounded overflow-hidden flex-shrink-0 relative">
+                        <img id="product-img" src="cdz39_b4l38_a0.jpg" alt="Brooklyn Shoulder Bag 28" class="w-full h-full object-cover" 
+                             onerror="renderFallbackImage()">
+                    </div>
+                    <!-- Info text -->
+                    <div class="flex-grow flex flex-col justify-between">
+                        <div>
+                            <h4 class="text-sm font-bold text-gray-900 leading-snug">Brooklyn Shoulder Bag 28</h4>
+                            <p class="text-xs text-gray-500 font-semibold mt-1">QTY: 1</p>
+                        </div>
+                        <div class="text-right">
+                            <span class="text-sm font-black text-gray-900">$295.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Not held items indicator pill -->
+                <div class="mb-5 bg-gray-50 border border-gray-100 rounded-full px-4 py-2 flex items-center gap-2">
+                    <span class="w-4 h-4 rounded-full border border-gray-500 text-[9px] text-gray-500 font-extrabold flex items-center justify-center">i</span>
+                    <p class="text-[11px] text-gray-600 font-semibold">Items in the bag are not held and may sell out</p>
+                </div>
+
+                <!-- Price Calculator Rows -->
+                <div class="space-y-3.5 border-b border-gray-200 pb-4 mb-4">
+                    <!-- Subtotal -->
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-600 font-medium">Subtotal</span>
+                        <span class="font-bold text-gray-900">$295.00</span>
+                    </div>
+
+                    <!-- CONDITIONAL GIFT CARD DISCOUNT ROW (Red text, underneath the Subtotal) -->
+                    <div id="discount-row" class="hidden justify-between text-sm transition-all duration-300">
+                        <span class="text-red-600 font-bold">Discount</span>
+                        <span class="font-extrabold text-red-600">-$300.00</span>
+                    </div>
+
+                    <!-- Standard Shipping -->
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-600 font-medium">Standard Shipping</span>
+                        <span class="font-bold text-gray-900 uppercase tracking-wider text-xs bg-gray-100 px-1.5 py-0.5 rounded">FREE</span>
+                    </div>
+
+                    <!-- Estimated Tax -->
+                    <div class="flex justify-between text-sm">
+                        <span class="text-gray-600 font-medium">Estimated Tax</span>
+                        <span class="font-bold text-gray-900">$28.76</span>
+                    </div>
+                </div>
+
+                <!-- Final Total (Turns to $23.76 in black text on redeem) -->
+                <div class="flex justify-between items-baseline mb-4">
+                    <span class="text-[16px] font-black text-gray-900 uppercase">Total</span>
+                    <span id="final-total" class="text-xl font-black text-gray-900 transition-colors duration-300">$323.76</span>
+                </div>
+
+                <!-- Afterpay prompt under total -->
+                <div class="text-[11px] text-gray-600 text-center mb-6 py-2 border-t border-b border-gray-100">
+                    <span>or as low as</span>
+                    <span id="installment-bottom" class="font-bold text-gray-900">$28.01</span><span>/mo. with</span>
+                    <span class="inline-flex items-center px-[5px] py-[1px] rounded bg-black text-[#4be475] text-[8px] font-black uppercase tracking-tighter">
+                        <span class="font-sans leading-none">$</span>
+                    </span>
+                    <span class="font-extrabold text-gray-900">Afterpay</span>
+                    <a href="#" class="underline text-gray-500 font-semibold ml-1">Learn more</a>
+                </div>
+
+                <!-- Quick info badges -->
+                <div class="grid grid-cols-2 gap-4 text-center text-xs py-4 border-b border-gray-100 mb-6">
+                    <div class="flex flex-col items-center gap-1.5 p-2 bg-gray-50 rounded-lg">
+                        <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg>
+                        <div>
+                            <p class="font-bold text-gray-900 leading-tight">Free Shipping.</p>
+                            <p class="text-[10px] text-gray-500 mt-0.5">on orders $75+</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center gap-1.5 p-2 bg-gray-50 rounded-lg">
+                        <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 15v-1a4 4 0 00-4-4H8m0 0l3 3m-3-3l3-3m9 14V5a2 2 0 00-2-2H6a2 2 0 00-2 2v16l4-2 4 2 4-2 4 2z"></path></svg>
+                        <div>
+                            <p class="font-bold text-gray-900 leading-tight">30-Day Returns.</p>
+                            <p class="text-[10px] text-gray-500 mt-0.5">View our policy <a href="#" class="underline font-bold">here</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Support Contact -->
+                <div class="text-center text-xs text-gray-700 mb-6">
+                    <span>Need help? Contact us </span><a href="#" class="underline font-bold text-black">here</a><span>.</span>
+                </div>
+
+                <!-- Standard Legal Footers -->
+                <p class="text-[9px] text-gray-400 text-center leading-relaxed">
+                    We protect your payment and personal information to ensure a safe and secure shopping experience. 
+                    <a href="#" class="underline hover:text-gray-600">Privacy Statement</a>
+                </p>
+                <p class="text-[9px] text-gray-400 text-center leading-relaxed mt-2.5">
+                    All deliveries to the state of Colorado will be charged a 27 cent delivery fee as of July 1, 2022 per state law.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT LOGIC FOR DYNAMIC PRICE UPDATES AND FORM CONTROLS -->
+    <script>
+        // DOM Elements
+        const promoHeader = document.getElementById('promo-header');
+        const promoBody = document.getElementById('promo-body');
+        const promoIcon = document.getElementById('promo-icon');
+
+        const giftcardHeader = document.getElementById('giftcard-header');
+        const giftcardBody = document.getElementById('giftcard-body');
+        const giftcardIcon = document.getElementById('giftcard-icon');
+
+        const giftCardInput = document.getElementById('gift-card-input');
+        const giftCardPin = document.getElementById('gift-card-pin');
+        const redeemBtn = document.getElementById('gift-card-redeem-btn');
+        const redeemNotification = document.getElementById('redeem-notification');
+
+        // Summaries
+        const discountRow = document.getElementById('discount-row');
+        const finalTotal = document.getElementById('final-total');
+        const summaryHeaderPrice = document.getElementById('summary-header-price');
+        const installmentAmt = document.getElementById('installment-amt');
+        const installmentBottom = document.getElementById('installment-bottom');
+
+        let isDiscountApplied = false;
+
+        // Accordion 1: Promo Code Toggle
+        promoHeader.addEventListener('click', () => {
+            const isHidden = promoBody.classList.contains('hidden');
+            if (isHidden) {
+                promoBody.classList.remove('hidden');
+                promoIcon.innerText = '−';
+            } else {
+                promoBody.classList.add('hidden');
+                promoIcon.innerText = '+';
+            }
+        });
+
+        // Accordion 2: Gift Card Toggle
+        giftcardHeader.addEventListener('click', () => {
+            const isHidden = giftcardBody.classList.contains('hidden');
+            if (isHidden) {
+                giftcardBody.classList.remove('hidden');
+                giftcardIcon.innerText = '−';
+            } else {
+                giftcardBody.classList.add('hidden');
+                giftcardIcon.innerText = '+';
+            }
+        });
+
+        // Gift Card Auto-Format (Formatting: 4-4-4-4-3)
+        giftCardInput.addEventListener('input', (e) => {
+            let value = e.target.value.replace(/\s+/g, '').replace(/[^0-9]/g, ''); // Digits only
+            if (value.length > 19) {
+                value = value.substring(0, 19);
+            }
+            // Add spacing beautifully
+            const parts = [];
+            for (let i = 0; i < value.length; i += 4) {
+                parts.push(value.substring(i, i + 4));
+            }
+            e.target.value = parts.join(' ');
+        });
+
+        // Toggle payment helper texts depending on selection
+        const paymentRadios = document.querySelectorAll('input[name="payment-method"]');
+        const applePayExplainer = document.getElementById('applepay-explainer');
+        paymentRadios.forEach(radio => {
+            radio.addEventListener('change', (e) => {
+                if (e.target.value === 'applepay') {
+                    applePayExplainer.classList.remove('hidden');
+                } else {
+                    applePayExplainer.classList.add('hidden');
+                }
+            });
+        });
+
+        // Redeem action
+        redeemBtn.addEventListener('click', () => {
+            if (isDiscountApplied) {
+                // Remove discount mode
+                isDiscountApplied = false;
+                discountRow.classList.add('hidden');
+                discountRow.classList.remove('flex');
+                
+                // Reset totals
+                finalTotal.innerText = '$323.76';
+                summaryHeaderPrice.innerText = '$323.76';
+                installmentAmt.innerText = '$28.01';
+                installmentBottom.innerText = '$28.01';
+
+                // Input clear-up
+                giftCardInput.value = '';
+                giftCardPin.value = '';
+                giftCardInput.removeAttribute('disabled');
+                giftCardPin.removeAttribute('disabled');
+
+                // Notification style
+                redeemNotification.classList.remove('bg-green-50', 'text-green-800', 'border', 'border-green-200');
+                redeemNotification.classList.add('hidden');
+                redeemBtn.innerText = 'Redeem';
+                return;
+            }
+
+            // Clean numbers only to validate
+            const cleanDigits = giftCardInput.value.replace(/\s+/g, '');
+
+            if (cleanDigits.length === 19) {
+                // Apply -$300.00 Discount
+                isDiscountApplied = true;
+                discountRow.classList.remove('hidden');
+                discountRow.classList.add('flex');
+
+                // Update Pricing
+                finalTotal.innerText = '$23.76';
+                summaryHeaderPrice.innerText = '$23.76';
+                installmentAmt.innerText = '$2.05';
+                installmentBottom.innerText = '$2.05';
+
+                // Display custom success notification box
+                redeemNotification.className = "mt-3 px-3 py-2.5 rounded text-xs font-semibold bg-green-50 text-green-800 border border-green-200 block";
+                redeemNotification.innerHTML = `
+                    <div class="flex items-center gap-1.5">
+                        <svg class="w-4 h-4 text-green-600 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span>Gift card successfully applied! Saved -$300.00.</span>
+                    </div>
+                `;
+
+                // Set inputs as disabled during applied code
+                giftCardInput.setAttribute('disabled', 'true');
+                giftCardPin.setAttribute('disabled', 'true');
+                redeemBtn.innerText = 'Remove Gift Card';
+
+            } else {
+                // Display error message
+                redeemNotification.className = "mt-3 px-3 py-2.5 rounded text-xs font-semibold bg-red-50 text-red-800 border border-red-200 block";
+                redeemNotification.innerHTML = `
+                    <div class="flex items-center gap-1.5">
+                        <svg class="w-4 h-4 text-red-600 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
+                        <span>Please enter a valid 19-digit gift card number (current length: ${cleanDigits.length} digits).</span>
+                    </div>
+                `;
+            }
+        });
+
+        // Top Summary Quick Scroll
+        const toggleTopSummary = document.getElementById('toggle-top-summary');
+        toggleTopSummary.addEventListener('click', () => {
+            const summaryBlock = document.getElementById('final-total');
+            summaryBlock.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+
+        // Colorful striped crochet style SVG placeholder in case image doesn't load/exist
+        function renderFallbackImage() {
+            const pImg = document.getElementById('product-img');
+            pImg.onerror = null; // Prevent loops
+            
+            // Render beautiful colorful striped bag SVG matching referenced style
+            pImg.parentNode.innerHTML = `
+                <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <rect x="0" y="0" width="100" height="100" fill="#edd6c1" />
+                    <rect x="0" y="5" width="100" height="10" fill="#d35252" />
+                    <rect x="0" y="15" width="100" height="10" fill="#dfbe6b" />
+                    <rect x="0" y="25" width="100" height="10" fill="#589a71" />
+                    <rect x="0" y="35" width="100" height="10" fill="#7d68b6" />
+                    <rect x="0" y="45" width="100" height="10" fill="#a45d94" />
+                    <rect x="0" y="55" width="100" height="10" fill="#da8359" />
+                    <rect x="0" y="65" width="100" height="10" fill="#4d86b7" />
+                    <rect x="0" y="75" width="100" height="10" fill="#e0b852" />
+                    <rect x="0" y="85" width="100" height="15" fill="#a13d3d" />
+                    <rect x="25" y="40" width="50" height="20" rx="3" fill="#8d3d3d" opacity="0.95" />
+                    <text x="50" y="51" font-family="'Times New Roman', serif" font-weight="900" font-size="7" fill="#edd6c1" text-anchor="middle" letter-spacing="0.5">COACH</text>
+                    <text x="50" y="56" font-family="sans-serif" font-weight="bold" font-size="3" fill="#edd6c1" text-anchor="middle" letter-spacing="0.2">NEW YORK</text>
+                </svg>
+            `;
+        }
+    </script>
+</body>
+</html>
